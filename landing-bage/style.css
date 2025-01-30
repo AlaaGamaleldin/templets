@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.landing-bage{
+    background-image: url(src/landing.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: block;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.701);
+    height: 100vh; 
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.log-in{
+    width: 30%;
+    height: 500px;
+    display: block;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-left: 35%;
+}
+.rogan-logo{
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+.rogan-logo img{
+width: 200px;
+
+}
+.login-form{
+    padding-top: 20px; 
+}
+.form input{
+    height: 50px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
