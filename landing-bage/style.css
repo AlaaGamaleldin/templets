@@ -12,18 +12,31 @@
     background-color: rgba(0, 0, 0, 0.701);
     height: 100vh; 
     color: white;
-    display: flex;
+    /* display: block; */
+    text-align: center;
     align-items: center;
+
+}
+.overlay h1{
+    padding-top: 50px;
+    /* letter-spacing: 3px; */
+    font-size: 60px;
+}
+.overlay p{
+    font-size: 30px;
+    letter-spacing: 6px;
+    color:  #35ae81;
 }
 .log-in{
-    width: 30%;
-    height: 500px;
+    width: 25%;
+    height: 450px;
     display: block;
     align-items: center;
-    background-color: white;
+    background-color: rgba(128, 117, 199, 0.65);
     color: black;
-    border-radius: 10px;
-    margin-left: 35%;
+    border-radius: 15px;
+    margin-left: 38%;
+    margin-top: 100px;
 }
 .rogan-logo{
     display: block;
@@ -31,15 +44,23 @@
     align-items: center;
 }
 .rogan-logo img{
-width: 200px;
+width: 40%;
 
 }
 .login-form{
     padding-top: 20px; 
+    font-weight: bold;
+    color: white;
 }
 .form input{
     height: 50px;
-    width: 250px;
+    width: 60%;
     border: 1px solid grey;
     border-radius: 5px;
+}
+.username{
+    margin-bottom: 20px;
+}
+.password label{
+    margin-right: 10px;
 }
